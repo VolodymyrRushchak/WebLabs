@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    padding-top: 27px;
+    margin-left: 80px;
+}
+
+.header__nav ul {
+    display: flex;
+}
+
+.header__nav--item {
+    margin-right: 75px;
+}
+
+.header__title {
+    margin-top: 10;
+    margin-right: 16%;
+}
