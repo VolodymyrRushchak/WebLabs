@@ -1,0 +1,39 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Add page</title>
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+
+    <body>
+        
+        <div class="addhamster__div">
+            <h2 class="title">
+                Add new hamster
+            </h2>
+            <input id="ageInput" class="property__input" type="text" placeholder="Age">
+            <input id="weightInput" class="property__input" type="text" placeholder="Weight">
+            <input id="priceInput" class="property__input" type="text" placeholder="Price">
+            <input id="nameInput" class="property__input" type="text" placeholder="Name">
+            <button id="createButton" class="create__button">
+                Create
+            </button>
+            <button id="backButton" class="back__button">
+                Back to main
+            </button>
+        </div>
+
+        <div id="modalWindow" class="modal__window">
+            <div id="modalContent" class="modal__content">
+                <span class="close">&times</span>
+                <p id="displayMessage"></p>
+            </div>
+        </div>
+
+        <script src="./scripts/addhamster.js"></script>
+
+    </body>
+
+</html>
