@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <div class="control__buttons">
+
+        <div class="sort__div">
+            <button id="sortButton" class="sort__button">
+                Sort
+            </button>
+            <ul>
+                Sort by
+                <li>
+                    <input type="radio" name="sortRadio" checked="checked" id="by_age_option" onclick="getListOfItems()">
+                    Age
+                </li>
+                <li>
+                    <input type="radio" name="sortRadio" id="by_weight_option" onclick="getListOfItems()">
+                    Weight
+                </li>
+                <li>
+                    <input type="radio" name="sortRadio" id="by_price_option" onclick="getListOfItems()">
+                    Price
+                </li>
+            </ul>
+        </div>
+
+        <div class="search__div">
+            <div class="search__buttons__div">
+                <button id="searchButton" class="search__button">
+                    Search
+                </button>
+                <button id="cancelButton" class="cancel__button">
+                    Cancel
+                </button>
+            </div>
+            <input type="text" id="search__input" size="16">
+        </div>
+
+        <div class="count_total__div">
+            <p id="totalPrice">Count total price:</p>
+            <button id="totalPriceButton" class="count_total__button">
+                Count
+            </button>
+        </div>
+
+    </div>
+
+    <div class="items__list__div">
+        <button id="addButton" class="addhamster__button">
+            ADD NEW HAMSTER
+        </button>
+        <ul class="itemsContainer" id="itemsContainer">
+            
+        </ul>
+    </div>
+
+    <script type="module" src="./scripts/index.js"></script>
+</body>
+
+</html>
