@@ -1,0 +1,25 @@
+.hamsterPicture {
+    width: 22vw;
+    height: 18vw;
+    border-radius: 2vw;
+}
+
+.topHamstersDiv {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5vw;
+}
+
+.hamsterInfoDiv {
+    width: 25%;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+.afterMainDiv {
+    margin-top: 12vw;
+    text-align: center;
+}
