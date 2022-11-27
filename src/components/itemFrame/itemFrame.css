@@ -1,0 +1,46 @@
+.itemFrame {
+    margin: 3vw;
+    margin-top: 3vw;
+    background-color:blanchedalmond;
+    width: 17vw;
+    padding: 1vw;
+    border-radius: 1.5vw;
+    background: linear-gradient(0deg, #ffebcd 91%, #ffd089 9%);
+}
+
+.itemTitle {
+    margin: 0;
+}
+
+.itemName {
+    margin-top: 0.5vw;
+    text-align: center;
+}
+
+.picture { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    width: 15vw;
+    height: 15vw;
+}
+
+p {
+    margin-top: 0.5vw;
+}
+
+.priceDiv {
+    margin-top: 1.25vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vw;
+}
+
+.boldText {
+    font-weight: 600;
+}
+
+span {
+    font-size: 1.5vw;
+}
