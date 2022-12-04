@@ -1,0 +1,57 @@
+.title {
+    text-align: center;
+}
+
+.mainDiv {
+    display: flex;
+}
+
+.columnDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 5vw;
+    height: 12vw;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    height: 30vw;
+}
+
+.textInput {
+    width: 17vw;
+    height: 2vw;
+}
+
+.outer {
+    margin-left: 30%;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.addressInput {
+    width: 39.7vw;
+    height: 2vw;
+} 
+
+.error {
+    color: red;
+}
+
+.buttonDiv {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    margin-top: 7vw;
+    justify-content: space-between;
+}
+
+.button {
+    width: 12vw;
+    height: 3vw;
+    font-size: 1.5vw;
+}
